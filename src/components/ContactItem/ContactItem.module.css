@@ -1,0 +1,15 @@
+.button {
+    border-radius: 6px;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    background-color: rgba(184, 248, 250, 0.518);
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgba(161, 252, 252, 0.883);
+}
+
+.name{
+    margin-right: 30px;
+}
