@@ -16,6 +16,5 @@ export const ContactList = ({ contacts, onDeleteContact }) => {
 }   
 
 ContactList.propTypes = {
-    contacts: PropTypes.shape({}),
     onDelete: PropTypes.func,
 }
