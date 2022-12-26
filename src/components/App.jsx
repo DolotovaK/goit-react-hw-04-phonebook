@@ -24,7 +24,7 @@ export function App() {
   
   function onChangeFilter(evt) {
       const { value } = evt.currentTarget;
-      setFilter({ filter: value });
+      setFilter(value);
     };
   
   function onGetFilteredContacts () {
